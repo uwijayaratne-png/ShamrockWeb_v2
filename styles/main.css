@@ -1,0 +1,52 @@
+/* Color Palette */
+:root {
+    --shamrock-green: #4EA800;
+    --dark-bg: #26242A;
+    --body-gray: #E0E0E0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--dark-bg);
+}
+
+h1, h2, .navbar-brand {
+    font-family: 'Playfair Display', serif;
+}
+
+.text-shamrock { color: var(--shamrock-green); }
+
+/* Buttons */
+.btn-shamrock {
+    background-color: var(--shamrock-green);
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    padding: 12px 24px;
+}
+
+.btn-shamrock:hover {
+    background-color: #3e8600;
+    color: #fff;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(38, 36, 42, 0.7), rgba(38, 36, 42, 0.7)), 
+                url('hero-image.jpg') center/cover no-repeat;
+    height: 80vh;
+}
+
+/* Cookie Banner */
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(38, 36, 42, 0.95);
+    color: white;
+    text-align: center;
+    display: none; /* Shown via JS */
+    z-index: 1050;
+}
