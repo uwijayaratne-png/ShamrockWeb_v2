@@ -1,49 +1,173 @@
-<section class="py-5">
-    <div class="container text-center">
-        <h2 class="mb-5">Your Private Sanctuary</h2>
-        <div class="row g-4">
-            <div class="col-md-4">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body">
-                        <h3 class="h5">Shamrock Standard</h3>
-                        <p class="text-muted">Simplicity & Comfort</p>
-                        <h4 class="text-shamrock">LKR 270,000 / mo</h4>
-                        <ul class="list-unstyled mt-3 small">
-                            <li>Shared Bathroom</li>
-                            <li>Full Board Meals</li>
-                            <li>24/7 Nursing</li>
-                        </ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shamrock Lifestyle | Your Private Sanctuary</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body { background-color: #26242A; color: #E0E0E0; }
+        .comparison-table { background: rgba(255, 255, 255, 0.02); border-radius: 15px; overflow: hidden; }
+        .comparison-table th { background: rgba(78, 168, 0, 0.1); color: #4EA800; border: none; padding: 20px; text-transform: uppercase; letter-spacing: 1px; }
+        .comparison-table td { border-color: rgba(255, 255, 255, 0.05); padding: 15px; vertical-align: middle; }
+        .feature-header { color: #FFFFFF; font-weight: 600; background: rgba(0,0,0,0.2); }
+        .price-tag { font-family: 'Montserrat', sans-serif; color: #4EA800; font-size: 1.25rem; font-weight: bold; }
+        .check-icon { color: #4EA800; }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top glass-nav">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="../index.html">
+                <img src="../images/Shamrock_Logo.png" alt="Shamrockseniors® Logo" height="40" class="me-2">
+                <span class="fs-4 text-uppercase fw-bold">Shamrockseniors®</span>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link px-3" href="../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 active" href="lifestyle.html">Lifestyle</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="connect.html">Connect</a></li>
+                    <li class="nav-item ms-lg-3"><a class="btn btn-shamrock rounded-pill shadow" href="contact.html">Book a Tour</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="py-5 text-center mt-5">
+        <div class="container py-5 animate-fade-in">
+            <h1 class="display-3 fw-bold mb-3">Your Private Sanctuary</h1>
+            <p class="lead opacity-75 mx-auto col-lg-8">
+                Curated living environments tailored to your preference and budget. At Shamrockseniors, we believe your environment dictates your well-being[cite: 1102, 1103].
+            </p>
+        </div>
+    </header>
+
+    <section class="pb-5">
+        <div class="container">
+            <div class="table-responsive shadow-lg">
+                <table class="table table-dark comparison-table">
+                    <thead>
+                        <tr>
+                            <th style="width: 25%;">Feature Comparison</th>
+                            <th class="text-center" style="width: 25%;">Shamrock Standard</th>
+                            <th class="text-center" style="width: 25%;">Shamrock Gold</th>
+                            <th class="text-center" style="width: 25%;">Shamrock Platinum</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="feature-header">
+                            <td colspan="4">Financial Summary</td>
+                        </tr>
+                        <tr>
+                            <td>Monthly Rental </td>
+                            <td class="text-center price-tag">LKR 270,000</td>
+                            <td class="text-center price-tag">LKR 345,000</td>
+                            <td class="text-center price-tag">LKR 435,000</td>
+                        </tr>
+                        <tr>
+                            <td>Daily Equivalent </td>
+                            <td class="text-center">LKR 9,000</td>
+                            <td class="text-center">LKR 11,500</td>
+                            <td class="text-center">LKR 14,500</td>
+                        </tr>
+                        
+                        <tr class="feature-header">
+                            <td colspan="4">Living Environment & Technology</td>
+                        </tr>
+                        <tr>
+                            <td>Bedding & Comfort </td>
+                            <td class="text-center">Orthopaedic 8" Mattress</td>
+                            <td class="text-center">Orthopaedic 8" + Pillow Menu</td>
+                            <td class="text-center">Orthopaedic 10" + Premium Pillow Menu</td>
+                        </tr>
+                        <tr>
+                            <td>Smart TV Package </td>
+                            <td class="text-center">43" (Silver Package)</td>
+                            <td class="text-center">50" (Gold Package)</td>
+                            <td class="text-center">55" (Platinum Package)</td>
+                        </tr>
+                        <tr>
+                            <td>Google Nest Hub </td>
+                            <td class="text-center">—</td>
+                            <td class="text-center">Nest Hub (Voice Control)</td>
+                            <td class="text-center">Nest Hub Max (10" HD Screen)</td>
+                        </tr>
+
+                        <tr class="feature-header">
+                            <td colspan="4">Sanitary & Personal Care</td>
+                        </tr>
+                        <tr>
+                            <td>Bathroom Privacy [cite: 1123]</td>
+                            <td class="text-center text-muted">Shared (Companion Care)</td>
+                            <td class="text-center">Private Ensuite</td>
+                            <td class="text-center">Luxury Private Ensuite + Bathtub</td>
+                        </tr>
+                        <tr>
+                            <td>Laundry Service [cite: 1129, 1131]</td>
+                            <td class="text-center">Weekly Service</td>
+                            <td class="text-center">Priority (24-48hr Turnaround)</td>
+                            <td class="text-center">On-Demand Priority Service</td>
+                        </tr>
+                        
+                        <tr class="feature-header">
+                            <td colspan="4">Premium Enhancements</td>
+                        </tr>
+                        <tr>
+                            <td>Concierge Service [cite: 1131]</td>
+                            <td class="text-center">—</td>
+                            <td class="text-center"><i class="bi bi-check-circle check-icon"></i></td>
+                            <td class="text-center">Dedicated Platinum Concierge</td>
+                        </tr>
+                        <tr>
+                            <td>Guest Meals [cite: 1131]</td>
+                            <td class="text-center">—</td>
+                            <td class="text-center">1 Per Week</td>
+                            <td class="text-center">1 Per Week</td>
+                        </tr>
+                        <tr>
+                            <td>Personal Safe & Mini-Fridge [cite: 1125]</td>
+                            <td class="text-center">—</td>
+                            <td class="text-center">—</td>
+                            <td class="text-center"><i class="bi bi-check-circle check-icon"></i> Included</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5" style="background: rgba(0,0,0,0.2);">
+        <div class="container py-5">
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="p-5 rounded-4 border border-shamrock border-opacity-25 h-100">
+                        <h3 class="text-shamrock mb-3">Couples' Living</h3>
+                        <p class="small opacity-75 mb-4">"Together is a Wonderful Place to Be." You don't have to separate after decades together. Suites available in Gold & Platinum[cite: 1134, 1135, 1136].</p>
+                        <a href="contact.html" class="btn btn-outline-light btn-sm rounded-pill">Inquire for Couples</a>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card h-100 shadow-sm border-0 border-top border-shamrock border-4">
-                    <div class="card-body">
-                        <h3 class="h5">Shamrock Gold</h3>
-                        <p class="text-muted">Enhanced Space & Privacy</p>
-                        <h4 class="text-shamrock">LKR 345,000 / mo</h4>
-                        <ul class="list-unstyled mt-3 small">
-                            <li>Private test Bathroom</li>
-                            <li>Upgraded Furnishings</li>
-                            <li>Air Conditioned</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card h-100 shadow-sm border-0 bg-dark text-white">
-                    <div class="card-body">
-                        <h3 class="h5">Shamrock Platinum</h3>
-                        <p class="text-muted">The Pinnacle of Luxury</p>
-                        <h4 class="text-shamrock">LKR 435,000 / mo</h4>
-                        <ul class="list-unstyled mt-3 small">
-                            <li>Premium Views & Balcony</li>
-                            <li>Personal In-room Safe</li>
-                            <li>Concierge Service</li>
-                        </ul>
+                <div class="col-md-6">
+                    <div class="p-5 rounded-4 border border-shamrock border-opacity-25 h-100">
+                        <h3 class="text-shamrock mb-3">The Clinical Wing</h3>
+                        <p class="small opacity-75 mb-4">Specialised High Dependency Unit for residents requiring continuous medical supervision or ICU step-down care[cite: 1142].</p>
+                        <p class="price-tag small">LKR 16,000 - 18,000 / day [cite: 1144]</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+
+    <footer class="py-5 text-center mt-5">
+        <div class="container">
+            <p class="small opacity-50 mb-0">© 2026 Shamrockseniors (PVT) LTD. Registered in Sri Lanka & Ireland[cite: 724, 725].</p>
+            <p class="small text-shamrock fw-bold mt-1">Providing Safety, Comfort, and Uncompromised Dignity[cite: 1104].</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
