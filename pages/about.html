@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us | Shamrockseniors - A Legacy of Excellence</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: #26242a;
+        color: #e0e0e0;
+      }
+      .section-dark {
+        background-color: #26242a;
+      }
+      .section-light {
+        background-color: #ffffff;
+        color: #26242a;
+      }
+      .brand-quote {
+        font-family: "Playfair Display", serif;
+        border-left: 4px solid #4ea800;
+        padding-left: 20px;
+        font-style: italic;
+      }
+      .credential-pill {
+        background: rgba(78, 168, 0, 0.1);
+        color: #4ea800;
+        padding: 5px 15px;
+        border-radius: 50px;
+        font-size: 0.8rem;
+        display: inline-block;
+        margin: 2px;
+      }
+      .team-card img {
+        filter: grayscale(100%);
+        transition: filter 0.3s ease;
+        border-radius: 15px;
+      }
+      .team-card:hover img {
+        filter: grayscale(0%);
+      }
+      .timeline-box {
+        border-left: 2px solid #4ea800;
+        padding-left: 30px;
+        position: relative;
+      }
+      .timeline-box::before {
+        content: "";
+        position: absolute;
+        left: -9px;
+        top: 0;
+        width: 16px;
+        height: 16px;
+        background: #4ea800;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top glass-nav">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="/index.html">
+          <img
+            src="/images/Shamrock_Logo.png"
+            alt="Shamrockseniors® Logo"
+            height="40"
+            class="me-2"
+          />
+          <span class="fs-4 text-uppercase fw-bold">Shamrockseniors®</span>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-center">
+            <li class="nav-item">
+              <a class="nav-link px-3" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="/pages/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="/pages/lifestyle.html"
+                >Lifestyle</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="/pages/connect.html"
+                >Shamrock Connect</a
+              >
+            </li>
+            <li class="nav-item ms-lg-3">
+              <a
+                class="btn btn-shamrock rounded-pill shadow"
+                href="/pages/contact.html"
+                >Schedule a Visit</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="py-5 mt-5 text-center">
+      <div class="container py-5 animate-fade-in">
+        <h1 class="display-3 fw-bold mb-3">Welcome to Shamrockseniors</h1>
+        <p class="lead text-shamrock fw-bold mb-5" style="letter-spacing: 2px">
+          OUR STORY
+        </p>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <p class="brand-quote fs-4 mb-4">
+              “We believe that exceptional care requires a perfect balance of
+              clinical precision and homelike comfort.”
+            </p>
+            <p class="text-end fw-bold">— Upendra & Shanika Wijayaratne</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section-light py-5">
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-md-4">
+            <h3 class="text-shamrock mb-3">OUR MISSION</h3>
+            <p class="small">
+              Bring Love, Faith, and Hope to life for every resident. We enable
+              a life of dignity, safety, and fullness while empowering our staff
+              through a growth-focused culture.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h3 class="text-shamrock mb-3">OUR VISION</h3>
+            <p class="small">
+              To provide Love, Faith & Hope under one Lucky Shamrock. We are
+              creating a new path for senior living in Sri Lanka through
+              innovation and employee empowerment.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h3 class="text-shamrock mb-3">OUR VALUES</h3>
+            <ul class="list-unstyled small">
+              <li><strong>Care:</strong> Evidence-based support.</li>
+              <li><strong>Compassion:</strong> Dignity and empathy.</li>
+              <li><strong>Trust:</strong> Absolute transparency.</li>
+              <li><strong>Learning:</strong> Continuous improvement.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-dark">
+      <div class="container py-5">
+        <div class="text-center mb-5">
+          <h2 class="display-5 fw-bold">Where Science Meets the Heart</h2>
+          <p class="text-shamrock">OUR CARE APPROACH</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div
+              class="p-4 border border-white border-opacity-10 rounded-4 h-100"
+            >
+              <h4 class="h5 mb-3">Knowing the Person</h4>
+              <p class="small opacity-75">
+                Care begins with a deep understanding of your loved one’s life
+                narrative—their background, routines, and joys.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div
+              class="p-4 border border-white border-opacity-10 rounded-4 h-100"
+            >
+              <h4 class="h5 mb-3">Dignity in Action</h4>
+              <p class="small opacity-75">
+                Whether providing general support or high-dependency care, we
+                prioritise dignity and independence above all else.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div
+              class="p-4 border border-white border-opacity-10 rounded-4 h-100"
+            >
+              <h4 class="h5 mb-3">A Family of Services</h4>
+              <p class="small opacity-75">
+                Our highly trained nursing team ensures every resident thrives
+                in an environment that is safe and familiar.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-light py-5">
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <div class="col-lg-5 mb-5 mb-lg-0">
+            <h2 class="display-6 fw-bold mb-3">Dr. Shanika Wijayaratne</h2>
+            <p class="text-shamrock mb-4">Director of Medical Services</p>
+            <div class="mb-4">
+              <span class="credential-pill">MBBS</span>
+              <span class="credential-pill">MCAI</span>
+              <span class="credential-pill">FCAI</span>
+              <span class="credential-pill">DESA</span>
+              <span class="credential-pill">FRCA</span>
+              <span class="credential-pill">EDRA</span>
+              <span class="credential-pill">DPMCAI</span>
+              <span class="credential-pill">FJFICMI</span>
+              <span class="credential-pill">Dip HCL</span>
+            </div>
+            <p class="small mb-4">
+              A Consultant Anaesthetist with dual specialist registration in the
+              UK (GMC) and Ireland (IMC). Dr. Wijayaratne ensures our facility
+              operates with the safety standards of a top-tier global hospital.
+            </p>
+            <div class="timeline-box">
+              <h5 class="h6 fw-bold">Global Leadership</h5>
+              <p class="small">
+                Consultant at King’s College Hospital, London; expertise
+                spanning Dublin, Singapore, and Sri Lanka.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 offset-lg-1">
+            <div class="bg-dark p-5 rounded-4 text-white shadow-lg">
+              <h4 class="text-shamrock h5 mb-4">
+                The "Science of Care" in Action
+              </h4>
+              <ul class="list-unstyled small">
+                <li class="mb-3">
+                  <i class="bi bi-shield-check text-shamrock me-2"></i>
+                  <strong>Expert Pain Management:</strong> Overseeing protocols
+                  to ensure maximum comfort.
+                </li>
+                <li class="mb-3">
+                  <i class="bi bi-shield-check text-shamrock me-2"></i>
+                  <strong>Highest Ethical Standards:</strong> Diploma in Health
+                  Care Law from the Law Society of Ireland.
+                </li>
+                <li class="mb-3">
+                  <i class="bi bi-shield-check text-shamrock me-2"></i>
+                  <strong>Emergency Readiness:</strong> Swift, life-saving
+                  protocols designed by a trauma specialist.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5" style="background-color: #1a181d">
+      <div class="container py-5">
+        <div class="row align-items-center flex-lg-row-reverse">
+          <div class="col-lg-5">
+            <h2 class="display-6 fw-bold mb-3">Dr. Upendra Wijayaratne</h2>
+            <p class="text-shamrock mb-4">Chairman & Founder</p>
+            <div class="mb-4">
+              <span class="credential-pill">MD</span>
+              <span class="credential-pill">MSc Healthcare Management</span>
+              <span class="credential-pill">LLB</span>
+            </div>
+            <p class="small opacity-75 mb-4">
+              Bringing a rare triad of expertise: Clinical Medicine, Healthcare
+              Management, and Law. Dr. Wijayaratne engineered the Standard
+              Operating Procedures that define Shamrockseniors.
+            </p>
+            <div class="p-4 security-badge rounded-end">
+              <h5 class="h6 fw-bold text-white">The "Prevention" Strategy</h5>
+              <p class="small mb-0 opacity-75">
+                Using courtroom insights from Irish medical indemnity law to
+                design proactive safety protocols that prevent issues before
+                they arise.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 offset-lg-1 text-center">
+            <div
+              class="p-5 rounded-4 shadow-lg bg-dark border border-white border-opacity-10"
+            >
+              <i class="bi bi-award-fill display-1 text-shamrock mb-4"></i>
+              <h4 class="mb-3">A Fortress of Care</h4>
+              <p class="small opacity-75">
+                "Under Dr. Wijayaratne’s stewardship, Shamrockseniors is more
+                than a facility; it is a fortress built on medical expertise and
+                legal integrity."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-light py-5">
+      <div class="container py-5 text-center">
+        <h2 class="mb-4">An Internationally Registered Brand</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <p class="small mb-4">
+              Stability is vital when choosing a home. Shamrockseniors is one of
+              the few nursing facilities in Sri Lanka with a
+              <strong>Registered Trademark (®)</strong> protected in both Sri
+              Lanka and Ireland. This serves as a legal testament to our roots
+              in Irish healthcare standards.
+            </p>
+            <img
+              src="../images/Shamrock_Logo.png"
+              alt="Registered Trademark"
+              height="100"
+              class="mt-3"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-5 text-white" style="background-color: #26242a">
+      <div class="container text-center">
+        <h2 class="navbar-brand fs-2 mb-4">Shamrockseniors®</h2>
+        <p class="opacity-50">
+          Providing Love, Faith & Hope Under One Lucky Shamrock.
+        </p>
+
+        <div class="my-4">
+          <a
+            href="/pages/privacy-policy.html"
+            class="text-white-50 mx-2 text-decoration-none small"
+            >Privacy Policy</a
+          >
+          <a
+            href="/pages/terms.html"
+            class="text-white-50 mx-2 text-decoration-none small"
+            >Terms of Use</a
+          >
+        </div>
+
+        <p class="small text-white-50">
+          © 2026 Shamrockseniors (PVT) LTD. Registered in Sri Lanka & Ireland.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
